@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	console.log("Ready!");
 
-$("a").click(function(event){
+$(".readmore").click(function(){
     event.preventDefault();
 });
 
@@ -12,6 +12,9 @@ $(".readmore").click(readMore);
 	$(".readless").slideDown(400);
 }
 
+$(".readless").click(function(){
+    event.preventDefault();
+});
 $(".readless").click(readLess);
 	function readLess() {
 	$("#show-this-on-click").slideUp(400);
