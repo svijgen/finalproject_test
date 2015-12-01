@@ -3,6 +3,8 @@ $(document).ready(function() {
 
 $(".readmore").click(function(){
     event.preventDefault();
+
+
 });
 
 $(".readmore").click(readMore);
@@ -22,7 +24,26 @@ $(".readless").click(readLess);
 	$(".readmore").show();
 }
 
+$('nav li ul').hide().removeClass('fallback');
+$('nav li').hover(
+  function () {
+    $('ul', this).stop().slideDown(100);
+  },
+  function () {
+    $('ul', this).stop().slideUp(100);
+  }
+);
 
+var win      = $(window),
+    fxel     = $('aside'),
+    eloffset = fxel.offset().top;
 
+win.scroll(function() {
+    if (eloffset < win.scrollTop()) {
+        fxel.addClass("fixed");
+    } else {
+        fxel.removeClass("fixed");
+    }
+});
 
 });
