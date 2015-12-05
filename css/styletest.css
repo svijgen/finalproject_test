@@ -330,6 +330,37 @@ img {
 	border: 5px solid gray;
 
 }
+
+.historyPicture {
+	border-radius: 3px;
+	border: 5px solid gray;
+	margin-left: 24%;
+}
+
+.historyPicture2 {
+	border-radius: 3px;
+	border: 5px solid gray;
+	margin-left: 24%;
+	width: 342px;
+	height: 340px;
+}
+
+.visionPicture {
+	border-radius: 3px;
+	border: 5px solid gray;
+	margin-left: 33%;
+	width: 440px;
+	height: 280px;
+	margin-bottom: 3%;
+}
+
+.boardofdirectors {
+	float: right;
+	border-radius: 3px;
+	border: 5px solid gray;
+	width: 440px;
+	height: 280px;
+}
 footer {
 	background-color: #F28500;
 	width: 100%;
@@ -374,11 +405,12 @@ object {
 }
 
 .about {
-	margin-top: 7%;
+	margin-top: 0%;
 	padding-bottom: 5%;
+		
 }
 .about h2 {
-	padding-top: 5%;
+	padding-top: 1.8%;
 	/*padding-bottom: 3%;*/
 	text-align: center;
 	font-size: 4.2em;
@@ -387,25 +419,47 @@ object {
 }
 
 .aboutparagraphs {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
+		font-family: "helvetica";
+		font-size: 1.8em;
+		font-weight: 300;
+		width: 65%;
+		margin-left: 21.5%;
+		margin-right: auto;
+		margin-top: 0%;
+		letter-spacing: 1px;
+		line-height: 145%;
+		text-align: left;
+		padding-bottom: 3%;
+		padding-top: 3%;
+}
+.aboutparagraphs:first-of-type:first-letter {
+  float: left;
+  font-size: 3.5em;
+  font-weight: 500;
+  margin-top: 1.9%;
+  letter-spacing: 7px;
+}
+#show-this-on-click {
+	font-family: "helvetica";
 	font-size: 1.8em;
 	font-weight: 300;
-	letter-spacing: 2px;
+	width: 65%;
+	margin-left: 21.5%;
+	margin-right: auto;
+	margin-top: 0%;
+	letter-spacing: 1px;
+	line-height: 145%;
+	text-align: left;
 	padding-bottom: 3%;
+
+	
+
 }
 
-#show-this-on-click {
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	width: 70%;
-	font-size: 1.8em;
-	font-weight: 300;
-	letter-spacing: 2px;
-	padding-bottom: 3%;
+.br_showmore {
+   display: block;
+   margin: 3% 0;
+   content: " ";
 }
 
 .space {
@@ -419,7 +473,7 @@ object {
 
 .readmore a, .readless a {
 	font-size: 1em;
-	margin-left: 47%;
+	margin-left: 80%;
 	font-weight: bold;
 	letter-spacing: 0px;
 	color: black;
@@ -446,34 +500,41 @@ object {
 
 
 .about_ul li {
-	text-align: center;
-	margin-left: auto;
+	font-family: "helvetica";
+	text-align: left;
+	margin-left: 21.5%;
 	margin-right: auto;
-	width: 70%;
+	margin-top: 0%;
+	width: 65%;
 	font-size: 1.8em;
 	font-weight: 300;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	padding-bottom: 3%;
 	color: black;
 	display: block;
 	list-style-type: circle;
-
+	line-height: 145%;
+}
+.about_ul li:first-of-type {
+	padding-top: 3%;
 }
 
 .about_ol li {
-	text-align: center;
-	margin-left: auto;
+	margin-left: 21.5%;
+	text-align: left;
 	margin-right: auto;
-	width: 70%;
+	width: 65%;
 	font-size: 1.8em;
 	font-weight: 300;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	padding-bottom: 3%;
 	color: black;
 	display: block;
-	list-style-type: upper-roman;
+	line-height: 145%;
 }
-
+.about_ol li:first-of-type {
+	padding-top: 3%;
+}
 .education {
 	text-align: center;
 	margin-left: auto;
@@ -526,3 +587,37 @@ object {
 	color: black;
 	display: block;
 	list-style-type: circle;
+}
+.aboutvision {
+		font-family: "helvetica";
+		font-size: 2em;
+		font-weight: 500;
+		font-style: italic;
+		width: 65%;
+		margin-left: 27%;
+		margin-right: auto;
+		margin-top: 0%;
+		letter-spacing: 1px;
+		line-height: 145%;
+		text-align: left;
+		
+		padding-top: 3%;
+}
+
+
+.vision_ul li {
+	font-family: "helvetica";
+	text-align: left;
+	margin-left: 21.5%;
+	margin-right: auto;
+	margin-top: 0%;
+	width: 65%;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-bottom: 3%;
+	color: black;
+	display: block;
+	list-style-type: circle;
+	line-height: 145%;
+}
