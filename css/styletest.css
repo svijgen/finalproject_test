@@ -349,7 +349,7 @@ img {
 	border-radius: 3px;
 	border: 5px solid gray;
 	margin-left: 33%;
-	width: 440px;
+	width: 430px;
 	height: 280px;
 	margin-bottom: 3%;
 }
@@ -370,6 +370,16 @@ img {
 	border: 5px solid gray;
 	margin-top: 1%;
 	margin-bottom: 2%;
+}
+
+.FSSpicture1 {
+	margin-left: 30%;
+	border-radius: 3px;
+	border: 5px solid gray;
+	margin-top: 1%;
+	margin-bottom: 2%;
+	width: 480px;
+	height: 350px;
 }
 footer {
 	background-color: #F28500;
@@ -449,7 +459,7 @@ object {
   margin-top: 1.9%;
   letter-spacing: 7px;
 }
-#show-this-on-click {
+#show-this-on-click, #show-this-on-click2 {
 	font-family: "helvetica";
 	font-size: 1.8em;
 	font-weight: 300;
@@ -481,7 +491,7 @@ object {
 	padding-bottom: 0%;
 }
 
-.readmore a, .readless a {
+.readmore a, .readless a, .readmore2 a, .readless2 a{
 	font-size: 1em;
 	margin-left: 80%;
 	font-weight: bold;
@@ -490,11 +500,11 @@ object {
 
 }
 
-.hide {
+.hide, .hide2, .hide_ul2 {
   display: none;
 }
 
-.readless {
+.readless, .readless2 {
   display: none;
 }
 
@@ -604,7 +614,7 @@ object {
 		font-weight: 500;
 		font-style: italic;
 		width: 65%;
-		margin-left: 21.5%;
+		margin-left: 26%;
 		margin-right: auto;
 		margin-top: 0%;
 		letter-spacing: 1px;
@@ -655,7 +665,7 @@ object {
 .staff p, .staffmembers {
 	font-family: "helvetica";
 	text-align: left;
-	margin-left: 20%;
+	margin-left: 21.5%;
 	margin-right: auto;
 	margin-top: 3%;
 	width: 65%;
@@ -683,5 +693,69 @@ object {
 
 .staffmembers li {
 	padding: 1% 0%;
+	line-height: 145%;
 }
 
+/*.hide_ul li {
+	font-family: "helvetica";
+	text-align: left;
+	margin-left: 21.5%;
+	margin-right: auto;
+	margin-top: 0%;
+	width: 65%;
+	font-size: 1.8em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	padding-bottom: 2%;
+	color: black;
+	display: block;
+	list-style-type: circle;
+	line-height: 145%;
+}*/
+
+#show-this-on-click2 {
+	font-family: "helvetica";
+	font-size: 1.8em;
+	font-weight: 300;
+	width: 65%;
+	margin-left: 21.5%;
+	margin-right: auto;
+	margin-top: 0%;
+	letter-spacing: 1px;
+	line-height: 145%;
+	text-align: left;
+	padding-bottom: 3%;
+}
+
+.subtitle {
+	font-size: 2.4em;
+	font-weight: 500;
+	font-style: italic;
+}
+
+h4.subtitle2 {
+	font-size: 2.4em;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 2.4em;
+	font-weight: 500;
+	width: 65%;
+	margin-left: 21.5%;
+}
+
+.aboutparagraphs2 {
+		font-family: "helvetica";
+		font-size: 1.8em;
+		font-weight: 300;
+		width: 65%;
+		margin-left: 21.5%;
+		margin-right: auto;
+		margin-top: 0%;
+		letter-spacing: 1px;
+		line-height: 145%;
+		text-align: left;
+		padding-bottom: 1%;
+		padding-top: 1%;
+}
