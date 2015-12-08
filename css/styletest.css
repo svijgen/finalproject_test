@@ -388,7 +388,7 @@ img {
 	border: 5px solid gray;
 	margin-top: 5%;
 	margin-bottom: 1%;
-	width: 440px;
+	width: 420px;
 	height: 180px;
 }
 
@@ -472,6 +472,22 @@ object {
 		padding-bottom: 3%;
 		padding-top: 3%;
 }
+
+.aboutparagraphsB {
+		font-family: "helvetica";
+		font-size: 1.8em;
+		font-weight: 500;
+		text-decoration: underline;
+		width: 65%;
+		margin-left: 21.5%;
+		margin-right: auto;
+		margin-top: 0%;
+		letter-spacing: 1px;
+		line-height: 145%;
+		text-align: left;
+		padding-bottom: 0%;
+		padding-top: 3%;
+}
 .aboutparagraphs:first-of-type:first-letter {
   float: left;
   font-size: 3.5em;
@@ -479,7 +495,7 @@ object {
   margin-top: 1.9%;
   letter-spacing: 7px;
 }
-#show-this-on-click, #show-this-on-click2 {
+#show-this-on-click, #show-this-on-click2, #show-this-on-click3 {
 	font-family: "helvetica";
 	font-size: 1.8em;
 	font-weight: 300;
@@ -491,11 +507,28 @@ object {
 	line-height: 145%;
 	text-align: left;
 	padding-bottom: 3%;
-
-	
-
 }
 
+#show-this-on-click3 {
+	font-family: "helvetica";
+	font-size: 1.8em;
+	font-weight: 300;
+	width: 55%;
+	margin-left: 22.5%;
+	margin-right: auto;
+	margin-top: 0%;
+	letter-spacing: 1px;
+	line-height: 145%;
+	text-align: center;
+	padding-bottom: 3%;
+
+
+
+
+
+
+
+}
 .br_showmore {
    display: block;
    margin: 3% 0;
@@ -812,11 +845,36 @@ h5 {
 
 span {
 	line-height: 200%;
-	margin-left: 5%;
+	
 }
 
 .br_showmore2 {
    display: block;
    margin: 2% 0;
    content: " ";
+}
+
+.br_showmore3 {
+   display: block;
+   margin: 3% 0;
+   content: " ";
+
+}
+
+.volunteer_opps, h5.volunteer_opps {
+	margin-top: 3%;
+	padding-top: 1.8%;
+	text-align: center;
+	font-size: 3.0em;
+	letter-spacing: 2px;
+	font-weight: 300;
+}
+
+h4.volunteer_opps2 {
+	margin-top: 3%;
+	padding-top: 1.8%;
+	text-align: center;
+	font-size: 3.0em;
+	letter-spacing: 2px;
+	font-weight: 300;
 }
