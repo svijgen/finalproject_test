@@ -511,7 +511,7 @@ object {
 	padding-bottom: 0%;
 }
 
-.readmore a, .readless a, .readmore2 a, .readless2 a, .readmore3 a, .readless3{
+.readmore a, .readless a, .readmore2 a, .readless2 a{
 	font-size: 1em;
 	margin-left: 80%;
 	font-weight: bold;
@@ -520,11 +520,11 @@ object {
 
 }
 
-.hide, .hide2, .hide_ul2, .hide3 {
+.hide, .hide2, .hide_ul2 {
   display: none;
 }
 
-.readless, .readless2, .readless3 {
+.readless, .readless2 {
   display: none;
 }
 
@@ -541,11 +541,11 @@ object {
 
 .about_ul li {
 	font-family: "helvetica";
-	text-align: center;
-	margin-left: 22.5%;
+	text-align: left;
+	margin-left: 21.5%;
 	margin-right: auto;
 	margin-top: 0%;
-	width: 55%;
+	width: 65%;
 	font-size: 1.8em;
 	font-weight: 300;
 	letter-spacing: 1px;

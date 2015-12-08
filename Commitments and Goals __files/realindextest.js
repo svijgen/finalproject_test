@@ -25,11 +25,10 @@ $(".readless").click(readLess);
 	$(".readmore").show();
 }
 
-/*For Family Support Page*/
 $(".readmore2").click(function(){
     event.preventDefault();
 
-
+/*For Family Support Page*/
 });
 $(".readmore2").click(readMore2);
 	function readMore2() {
@@ -47,39 +46,8 @@ $(".readless2").click(readLess2);
 	$(".readless2").slideUp(400);
 	$(".readmore2").show();
 }
-/*For Commitments*/
-
-$(".readmore3").click(function(){
-    event.preventDefault();
 
 
-});
-$(".readmore3").click(readMore3);
-	function readMore3() {
-	$(".readmore3").slideUp(400);
-	$("#show-this-on-click3").slideDown(400);
-	$(".readless3").slideDown(400);
-}
-
-$(".readless3").click(function(){
-    event.preventDefault();
-});
-$(".readless3").click(readLess3);
-	function readLess3() {
-	$("#show-this-on-click3").slideUp(400);
-	$(".readless3").slideUp(400);
-	$(".readmore3").show();
-}
-
-
-
-
-
-
-
-
-
-/*For Nav Bar*/
 $('nav li ul').hide().removeClass('fallback');
 $('nav li').hover(
   function () {
