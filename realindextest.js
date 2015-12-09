@@ -110,4 +110,12 @@ win.scroll(function() {
     }
 });
 
+
+
+
+/*For Hamburger*/
+$("#pancake-menu").click(function() {
+		$("nav ul").toggleClass("switch");
+
+	});
 });
