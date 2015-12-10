@@ -1018,10 +1018,10 @@ h4.volunteer_opps2 {
 		display: none;
 	}
 	.hidden {
-		display: inline;
+		display: inline-block;
 	}
 	a.button_links_hidden {
-		display: inline;
+		display: inline-block;
 
 	}
 
@@ -1102,14 +1102,34 @@ h4.volunteer_opps2 {
 
 	nav ul .switch {
 		display: block;
+		width: 100%;
+	}
+
+	nav > ul {
+		width: 100%;
 	}
 	nav ul li {
 		font-size: .8em;
 		margin-left: 0%;
 		margin-right: 0%;
+		text-align: left;
+		width: 100%;
 		
 	}
 
+	nav ul li:hover {
+		background-color: #F46208;
+	}
+
+	nav ul li ul {
+		position: relative;
+		width: 100%;
+		border: none;
+		box-shadow: none;
+
+
+
+	}
 	/*.switch {
 	clear:both;
 	height: auto;
