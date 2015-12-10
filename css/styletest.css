@@ -943,7 +943,9 @@ h4.volunteer_opps2 {
 		margin-left: 23%;
 	}
 	.hidden {
-		display: inline;
+		display: block;
+		width: 270px;
+		margin: 0 auto;
 	}
 
 	.aboutvision {
@@ -951,7 +953,12 @@ h4.volunteer_opps2 {
 		text-align: center;
 	}
 	a.button_links_hidden {
-		display: inline;
+		display: inline-block;
+		font-size: 2em;
+		padding: 6px 16px;
+		margin-top: 0;
+		margin-left: 3px;
+		vertical-align: baseline;
 	}
 	.homePicture {
     	margin-left: 25%;
@@ -1018,11 +1025,18 @@ h4.volunteer_opps2 {
 		display: none;
 	}
 	.hidden {
-		display: inline-block;
+		display: block;
+		width: 220px;
+		margin: 0 auto;
+		height: auto;
 	}
-	a.button_links_hidden {
+		a.button_links_hidden {
 		display: inline-block;
-
+		font-size: 2em;
+		padding: 6px 16px;
+		margin-top: 0;
+		margin-left: 3px;
+		vertical-align: baseline;
 	}
 
 	/*nav ul li a{
